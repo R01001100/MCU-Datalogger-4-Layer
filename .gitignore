@@ -1,6 +1,3 @@
-*.xml
-*.dsn
-.DS_Store
-fp-info-cache
-*Gerber/*
-*backups/*
+fp-inFo—cache
+MCU Datalogger—backups/*
+MCUDataloggerGerber/*
