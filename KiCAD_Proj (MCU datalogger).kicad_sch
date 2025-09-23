@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 20.32 0)
+			(property "Reference" "U1"
+				(at 0 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,7 +21,7 @@
 				)
 			)
 			(property "Value" "24LC1025-I_SM"
-				(at 0 17.78 0)
+				(at 0 21.844 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -136,6 +136,14 @@
 					(hide yes)
 				)
 			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "24LC1025-I_SM_0_0"
 				(rectangle
 					(start -7.62 10.16)
@@ -202,24 +210,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 12.7 7.62 180)
 					(length 5.08)
@@ -276,6 +266,24 @@
 				)
 			)
 			(symbol "24LC1025-I_SM_1_0"
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 -5.08 90)
 					(length 5.08)
@@ -2878,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 50.8) (xy 26.67 52.07)
+			(xy 27.94 50.8) (xy 27.94 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3238,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 60.96) (xy 49.53 60.96)
+			(xy 27.94 60.96) (xy 49.53 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3576,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 50.8) (xy 26.67 50.8)
+			(xy 49.53 50.8) (xy 27.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 59.69) (xy 26.67 60.96)
+			(xy 27.94 59.69) (xy 27.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4036,6 +4044,16 @@
 		)
 		(uuid "8a388f99-06ec-40e0-9d4a-072cbdebe82c")
 	)
+	(label "Vcc"
+		(at 233.68 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90b407b2-99f7-406f-a81d-f9172f7f3c83")
+	)
 	(label "SCK"
 		(at 116.84 151.13 0)
 		(effects
@@ -4085,16 +4103,6 @@
 			(justify right bottom)
 		)
 		(uuid "a6565c12-b698-4010-a13b-1a90bf0f3dec")
-	)
-	(label "Vcc"
-		(at 43.18 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b34cf627-941b-43ff-b6eb-c9c72153b8b7")
 	)
 	(label "Vcc"
 		(at 30.48 143.51 180)
@@ -4215,6 +4223,16 @@
 			(justify left bottom)
 		)
 		(uuid "e57c3d0b-247f-42c9-acbd-5a65aac59c99")
+	)
+	(label "Vcc"
+		(at 43.18 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed6e4f11-410b-4f97-ab08-ac7a4a6492c9")
 	)
 	(label "D3"
 		(at 196.85 132.08 0)
@@ -4806,172 +4824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "24LC1025-I_SM:24LC1025-I_SM")
-		(at 43.18 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "491b7ea8-e350-450e-884f-bf53911b2889")
-		(property "Reference" "U1"
-			(at 43.18 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24LC1025-I_SM"
-			(at 43.18 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "24LC1025-I_SM:SOIC127P794X202-8N"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Microchip Technology"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "1024K, 128K X 8, 2.5V SER EE, 128 BYTE PAGE | Microchip Technology Inc. 24LC1025-I/SM"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIJ-8 Microchip"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=snap"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "24LC1025-I/SM"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=eda"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "249c29ad-00e4-48ef-b78e-5d4576e11fd2")
-		)
-		(pin "2"
-			(uuid "205b14cd-178d-472c-a6ec-f1dcfde8bca9")
-		)
-		(pin "3"
-			(uuid "aa060c30-40b4-4fd3-8fd6-fae109ad6549")
-		)
-		(pin "7"
-			(uuid "0d6e4cad-d339-4ea7-8cf3-daac96dda904")
-		)
-		(pin "6"
-			(uuid "8e773ba7-e29f-47e1-a2f5-cba774545938")
-		)
-		(pin "5"
-			(uuid "fde9120a-c7f7-47f0-8403-26f4ff2fef8c")
-		)
-		(pin "8"
-			(uuid "e6c263d8-10fe-417f-941a-39d31d969d9e")
-		)
-		(pin "4"
-			(uuid "bd85eb63-3e77-461e-8c05-201c1359eb73")
-		)
-		(instances
-			(project "KiCAD_Proj (MCU datalogger)"
-				(path "/4bd39814-648a-43e5-9d59-9775154104be"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ATMEGA328P-AU:ATMEGA328P-AU")
 		(at 210.82 69.85 0)
 		(unit 1)
@@ -5338,7 +5190,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 26.67 55.88 90)
+		(at 27.94 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5347,7 +5199,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fbf835a-4943-41d7-9622-e5780b95515b")
 		(property "Reference" "Y1"
-			(at 30.48 54.6099 90)
+			(at 31.75 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5208,7 @@
 			)
 		)
 		(property "Value" "32.768 KHz"
-			(at 30.48 57.1499 90)
+			(at 31.75 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 55.88 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 55.88 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5235,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 26.67 55.88 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,6 +5676,182 @@
 		)
 	)
 	(symbol
+		(lib_id "24LC1025-I_SM:24LC1025-I_SM")
+		(at 43.18 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9004ebec-c7d3-4dcd-81c2-619a45b20faf")
+		(property "Reference" "U1"
+			(at 35.306 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24LC1025-I_SM"
+			(at 35.306 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "24LC1025-I_SM:SOIC127P794X202-8N"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Microchip Technology"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1024K, 128K X 8, 2.5V SER EE, 128 BYTE PAGE | Microchip Technology Inc. 24LC1025-I/SM"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIJ-8 Microchip"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=snap"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "24LC1025-I/SM"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=eda"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "32e91bb7-0f05-47d1-a7df-423e7c462366")
+		)
+		(pin "2"
+			(uuid "87ba55a4-51a7-46ba-a229-e9ff75da8a4f")
+		)
+		(pin "5"
+			(uuid "a7f8502e-7000-474a-bddb-3dc0dc0b416a")
+		)
+		(pin "1"
+			(uuid "57e9906f-53bb-422d-8e52-0e7b9e606d7b")
+		)
+		(pin "6"
+			(uuid "b6c92014-19f5-46b2-9785-6fd52c40487d")
+		)
+		(pin "7"
+			(uuid "a4f0ed41-2663-4052-a2f0-0978f87ab77a")
+		)
+		(pin "8"
+			(uuid "32a409e0-25c3-42f8-be80-bf3d27c0bde3")
+		)
+		(pin "4"
+			(uuid "3ae16aa2-1c93-4503-aa7c-b11f45312ad6")
+		)
+		(instances
+			(project ""
+				(path "/4bd39814-648a-43e5-9d59-9775154104be"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 109.22 40.64 0)
 		(unit 1)
@@ -5842,7 +5870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 113.03 41.9099 0)
 			(effects
 				(font
@@ -5912,7 +5940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "100nF"
 			(at 255.27 54.9909 0)
 			(effects
 				(font
@@ -6531,6 +6559,182 @@
 		)
 	)
 	(symbol
+		(lib_id "24LC1025-I_SM:24LC1025-I_SM")
+		(at 91.44 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cffd63ba-7d14-41c5-918d-2877834cb6c2")
+		(property "Reference" "U3"
+			(at 83.82 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24LC1025-I_SM"
+			(at 83.566 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "24LC1025-I_SM:SOIC127P794X202-8N"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Microchip Technology"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1024K, 128K X 8, 2.5V SER EE, 128 BYTE PAGE | Microchip Technology Inc. 24LC1025-I/SM"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIJ-8 Microchip"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=snap"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "24LC1025-I/SM"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=eda"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "de74330c-b614-4f14-98b3-48198b1b887d")
+		)
+		(pin "4"
+			(uuid "ccb5ecc1-249a-41fc-b8f3-7b3740f8f62b")
+		)
+		(pin "6"
+			(uuid "beb60b64-4de5-4406-bdfc-dfbba910f729")
+		)
+		(pin "5"
+			(uuid "4d89ce47-8d59-47c1-a639-676687b1450c")
+		)
+		(pin "3"
+			(uuid "c044a5ef-bfd1-4d70-816d-6fdde2e903af")
+		)
+		(pin "7"
+			(uuid "0c8e5b10-5b93-41d9-9a68-6575eba9130f")
+		)
+		(pin "1"
+			(uuid "fee7c555-e599-4e6e-bd9e-ab70323e0a2d")
+		)
+		(pin "8"
+			(uuid "6e0a47ec-a005-485d-b0b9-87344ad3fe48")
+		)
+		(instances
+			(project ""
+				(path "/4bd39814-648a-43e5-9d59-9775154104be"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 71.12 0)
 		(unit 1)
@@ -6909,172 +7113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "24LC1025-I_SM:24LC1025-I_SM")
-		(at 91.44 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eafa9c27-0354-4517-b20b-c8118f47da3b")
-		(property "Reference" "U3"
-			(at 91.186 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24LC1025-I_SM"
-			(at 91.44 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "24LC1025-I_SM:SOIC127P794X202-8N"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Microchip Technology"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "1024K, 128K X 8, 2.5V SER EE, 128 BYTE PAGE | Microchip Technology Inc. 24LC1025-I/SM"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIJ-8 Microchip"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=snap"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "24LC1025-I/SM"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=eda"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98680d82-29b5-40cb-998b-14b4e1bb56de")
-		)
-		(pin "2"
-			(uuid "93709500-7f91-4d55-b9f9-b229eedaf2a5")
-		)
-		(pin "3"
-			(uuid "c2e0fda7-16be-4aa0-aeab-786ba4c43f1e")
-		)
-		(pin "7"
-			(uuid "ed408dda-d841-4710-ae7e-44a2af8f8af5")
-		)
-		(pin "6"
-			(uuid "0d3d5e8e-774d-4b15-b08e-baf33cc20f98")
-		)
-		(pin "5"
-			(uuid "c58c831e-fb2c-4cdd-849a-c7476a231d79")
-		)
-		(pin "8"
-			(uuid "0e9b893f-5063-407e-a50d-2198f0fb9173")
-		)
-		(pin "4"
-			(uuid "73a01f31-26b3-41aa-80e1-395f479ede3e")
-		)
-		(instances
-			(project ""
-				(path "/4bd39814-648a-43e5-9d59-9775154104be"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 129.54 139.7 0)
 		(unit 1)
@@ -7162,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "22pF"
 			(at 148.59 57.15 90)
 			(effects
 				(font

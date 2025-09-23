@@ -9,8 +9,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U3"
-			(at 0 20.32 0)
+		(property "Reference" "U1"
+			(at 0 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "24LC1025-I_SM"
-			(at 0 17.78 0)
+			(at 0 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,6 +133,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "24LC1025-I_SM_0_0"
 			(rectangle
 				(start -7.62 10.16)
@@ -199,24 +207,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 15.24 270)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 12.7 7.62 180)
 				(length 5.08)
@@ -273,6 +263,24 @@
 			)
 		)
 		(symbol "24LC1025-I_SM_1_0"
+			(pin power_in line
+				(at 0 15.24 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 0 -5.08 90)
 				(length 5.08)
