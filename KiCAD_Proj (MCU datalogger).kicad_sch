@@ -1924,16 +1924,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 120.65 0)
+		(at 181.61 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "819bab4e-134d-4f6a-9039-7bf292f35f60")
+		(uuid "6e72a2cc-e074-479f-984d-0342d7994d23")
 		(property "Reference" "R1"
-			(at 182.88 119.3799 0)
+			(at 184.15 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 182.88 121.9199 0)
+			(at 184.15 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.562 120.65 90)
+			(at 179.832 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 120.65 0)
+			(at 181.61 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 120.65 0)
+			(at 181.61 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,10 +1978,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "992f6cbc-696a-4aaa-992c-afb97f90580e")
+			(uuid "45744926-c414-40af-8eff-f8c0eff9f8c2")
 		)
 		(pin "1"
-			(uuid "3a5fbc84-33fc-4c13-b352-115b58d01cef")
+			(uuid "b674ab70-8065-45b5-a54a-e03f4b173658")
 		)
 		(instances
 			(project ""
