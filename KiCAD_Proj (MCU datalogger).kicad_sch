@@ -2676,15 +2676,25 @@
 		)
 		(uuid "30f01c40-1ea0-4ba3-bcba-d40d04e017de")
 	)
-	(text "Clock"
+	(text "Real-time clock"
 		(exclude_from_sim no)
-		(at 21.336 18.796 0)
+		(at 26.67 18.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "44660544-9363-4547-b4ad-57820b9818cf")
+	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 230.632 116.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "580ea58a-78ea-4f77-87a2-f7c89b52f0e5")
 	)
 	(junction
 		(at 232.41 92.71)
@@ -4297,6 +4307,21 @@
 				(type none)
 			)
 			(uuid c392b599-f548-436b-addb-3b7a88f766a4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 223.52 118.11) (xy 248.92 118.11) (xy 248.92 144.78) (xy 223.52 144.78)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f3ef0c3a-2ea3-4de3-83a3-bf82c6d8fa2d)
 		)
 	)
 	(symbol

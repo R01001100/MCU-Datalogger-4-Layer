@@ -1204,6 +1204,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 111.76 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0609e009-b9d2-4d20-af0d-b6999d6c344d")
+	)
 	(hierarchical_label "D3"
 		(shape tri_state)
 		(at 124.46 104.14 0)
@@ -1272,7 +1282,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 153.67 102.87 180)
+		(at 153.67 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1294,7 +1304,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 166.37 107.95 0)
+		(at 166.37 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1316,7 +1326,7 @@
 	)
 	(hierarchical_label "RESET"
 		(shape passive)
-		(at 153.67 107.95 180)
+		(at 153.67 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1327,7 +1337,7 @@
 	)
 	(hierarchical_label "Vcc"
 		(shape passive)
-		(at 166.37 102.87 0)
+		(at 166.37 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1349,7 +1359,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape passive)
-		(at 153.67 105.41 180)
+		(at 153.67 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1404,7 +1414,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 166.37 105.41 0)
+		(at 166.37 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1457,10 +1467,25 @@
 		)
 		(uuid "ff8f3387-fcfb-44c6-a579-e141fb14ab87")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 106.68 66.04) (xy 179.07 66.04) (xy 179.07 130.81) (xy 106.68 130.81)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 0f0828b8-49d2-4155-95c6-2dbadea72967)
+		)
+	)
 	(symbol
 		(lib_name "Conn_02x03_Counter_Clockwise_1")
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
-		(at 158.75 105.41 0)
+		(at 158.75 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1468,7 +1493,7 @@
 		(dnp no)
 		(uuid "0bc66276-ca41-40f0-bdfe-471ec2b31c22")
 		(property "Reference" "J4"
-			(at 160.02 96.52 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,7 +1501,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Counter_Clockwise"
-			(at 160.02 99.06 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 105.41 0)
+			(at 158.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +1518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 105.41 0)
+			(at 158.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1527,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 105.41 0)
+			(at 158.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1536,7 @@
 			)
 		)
 		(property "Purpose" "ICSP"
-			(at 160.02 110.998 0)
+			(at 160.02 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
