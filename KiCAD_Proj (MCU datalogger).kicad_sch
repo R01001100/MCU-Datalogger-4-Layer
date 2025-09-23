@@ -348,6 +348,14 @@
 					(hide yes)
 				)
 			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "MF" "Microchip Technology"
 				(at 0 0 0)
 				(effects
@@ -1351,134 +1359,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(symbol
 		(lib_id "24LC1025-I_SM:24LC1025-I_SM")
-		(at 129.54 123.19 0)
+		(at 238.76 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1487,7 +1371,7 @@
 		(fields_autoplaced yes)
 		(uuid "491b7ea8-e350-450e-884f-bf53911b2889")
 		(property "Reference" "U4"
-			(at 129.54 102.87 0)
+			(at 238.76 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1379,7 @@
 			)
 		)
 		(property "Value" "24LC1025-I_SM"
-			(at 129.54 105.41 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1387,7 @@
 			)
 		)
 		(property "Footprint" "24LC1025-I_SM:SOIC127P794X202-8N"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1415,7 @@
 			)
 		)
 		(property "MF" "Microchip Technology"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1425,7 @@
 			)
 		)
 		(property "Description_1" "1024K, 128K X 8, 2.5V SER EE, 128 BYTE PAGE | Microchip Technology Inc. 24LC1025-I/SM"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1435,7 @@
 			)
 		)
 		(property "Package" "SOIJ-8 Microchip"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1445,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1455,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=snap"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1465,7 @@
 			)
 		)
 		(property "MP" "24LC1025-I/SM"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1475,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1485,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=eda"
-			(at 129.54 123.19 0)
+			(at 238.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1529,7 @@
 	)
 	(symbol
 		(lib_id "ATMEGA328P-AU:ATMEGA328P-AU")
-		(at 99.06 69.85 0)
+		(at 208.28 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1654,7 +1538,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cd955fb-5d57-49ff-84a6-f5b885c3aa53")
 		(property "Reference" "U1"
-			(at 99.06 36.83 0)
+			(at 208.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1546,7 @@
 			)
 		)
 		(property "Value" "ATMEGA328P-AU"
-			(at 99.06 39.37 0)
+			(at 208.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +1554,7 @@
 			)
 		)
 		(property "Footprint" "ATMEGA328P-AU:QFP80P900X900X120-32N"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1573,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1582,7 @@
 			)
 		)
 		(property "MF" "Microchip Technology"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1592,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.20mm"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1602,7 @@
 			)
 		)
 		(property "Package" "TQFP-32 Microchip"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1612,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1622,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip+Technology/view-part/?ref=eda"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1632,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +1642,7 @@
 			)
 		)
 		(property "PARTREV" "8271A"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1652,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip+Technology/view-part/?ref=snap"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1662,7 @@
 			)
 		)
 		(property "MP" "ATMEGA328P-AU"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1672,7 @@
 			)
 		)
 		(property "Description_1" "AVR AVR® ATmega Microcontroller IC 8-Bit 20MHz 32KB (16K x 16) FLASH 32-TQFP (7x7)"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1682,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,13 +1692,21 @@
 			)
 		)
 		(property "MANUFACTURER" "Microchip"
-			(at 99.06 69.85 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 208.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"
@@ -1923,78 +1815,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.61 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e72a2cc-e074-479f-984d-0342d7994d23")
-		(property "Reference" "R1"
-			(at 184.15 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 184.15 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.832 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45744926-c414-40af-8eff-f8c0eff9f8c2")
-		)
-		(pin "1"
-			(uuid "b674ab70-8065-45b5-a54a-e03f4b173658")
-		)
-		(instances
-			(project ""
-				(path "/4bd39814-648a-43e5-9d59-9775154104be"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DS1337S:DS1337S_")
-		(at 46.99 73.66 0)
+		(at 78.74 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2003,7 +1825,7 @@
 		(fields_autoplaced yes)
 		(uuid "98cdc4b9-f7ee-4948-ade6-bbe8933058dd")
 		(property "Reference" "U2"
-			(at 46.99 53.34 0)
+			(at 78.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +1833,7 @@
 			)
 		)
 		(property "Value" "DS1337S_"
-			(at 46.99 55.88 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +1841,7 @@
 			)
 		)
 		(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +1860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +1869,7 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +1879,7 @@
 			)
 		)
 		(property "Description_1" "I²C Serial Real-Time Clock"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +1889,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Maxim"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +1899,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +1909,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=snap"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +1919,7 @@
 			)
 		)
 		(property "MP" "DS1337S+"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +1929,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +1939,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=eda"
-			(at 46.99 73.66 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +1983,7 @@
 	)
 	(symbol
 		(lib_id "24LC1025-I_SM:24LC1025-I_SM")
-		(at 38.1 119.38 0)
+		(at 146.05 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2170,7 +1992,7 @@
 		(fields_autoplaced yes)
 		(uuid "eafa9c27-0354-4517-b20b-c8118f47da3b")
 		(property "Reference" "U3"
-			(at 38.1 99.06 0)
+			(at 146.05 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2000,7 @@
 			)
 		)
 		(property "Value" "24LC1025-I_SM"
-			(at 38.1 101.6 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2008,7 @@
 			)
 		)
 		(property "Footprint" "24LC1025-I_SM:SOIC127P794X202-8N"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +2018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2036,7 @@
 			)
 		)
 		(property "MF" "Microchip Technology"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2046,7 @@
 			)
 		)
 		(property "Description_1" "1024K, 128K X 8, 2.5V SER EE, 128 BYTE PAGE | Microchip Technology Inc. 24LC1025-I/SM"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2056,7 @@
 			)
 		)
 		(property "Package" "SOIJ-8 Microchip"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2066,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2076,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=snap"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2086,7 @@
 			)
 		)
 		(property "MP" "24LC1025-I/SM"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2096,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2106,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/24LC1025-I/SM/Microchip+Technology/view-part/?ref=eda"
-			(at 38.1 119.38 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

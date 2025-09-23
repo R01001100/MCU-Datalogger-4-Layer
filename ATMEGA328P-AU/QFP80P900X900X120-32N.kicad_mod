@@ -1,5 +1,5 @@
 
-(footprint QFP80P900X900X120-32N (layer F.Cu) (tedit 68D1635C)
+(footprint QFP80P900X900X120-32N (layer F.Cu) (tedit 68D2553C)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -2.795 -6.79 0) (layer F.SilkS)

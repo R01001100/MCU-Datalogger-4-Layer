@@ -53,6 +53,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Microchip Technology"
 			(at 0 0 0)
 			(effects

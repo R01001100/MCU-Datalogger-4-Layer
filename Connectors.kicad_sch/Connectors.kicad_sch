@@ -1718,7 +1718,7 @@
 				)
 			)
 		)
-		(property "Value" "Serial"
+		(property "Value" "Serial UART"
 			(at 158.115 73.66 0)
 			(effects
 				(font
