@@ -1466,7 +1466,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0bc66276-ca41-40f0-bdfe-471ec2b31c22")
 		(property "Reference" "J4"
 			(at 160.02 96.52 0)
@@ -1511,6 +1510,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "ICSP"
+			(at 160.02 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "e67c0f81-44fb-4ecf-8bd3-5e1b717c9704")
 		)
@@ -1547,7 +1554,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dab5573-f851-4542-9aff-fbbbb445373b")
 		(property "Reference" "J3"
 			(at 158.115 71.12 0)
@@ -1592,6 +1598,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "Serial UART"
+			(at 160.528 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "81f85e9a-4dc6-4e1b-bb71-1a9f964113aa")
 		)
@@ -1622,7 +1636,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a3d856b3-0b0e-4716-9c43-eb751d9e4806")
 		(property "Reference" "J1"
 			(at 120.015 71.12 0)
@@ -1667,6 +1680,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "I2C"
+			(at 122.174 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a18497aa-c0e2-411f-9772-f30342e0c89e")
 		)
@@ -1697,7 +1718,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e3da654c-9b1b-4c0f-b7ad-96b617ef754b")
 		(property "Reference" "J2"
 			(at 120.015 96.52 0)
@@ -1742,8 +1762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" ""
-			(at 119.38 111.76 0)
+		(property "Purpose" "GPIO"
+			(at 122.174 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
