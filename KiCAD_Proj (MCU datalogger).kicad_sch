@@ -2688,7 +2688,7 @@
 	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 230.632 116.586 0)
+		(at 228.092 119.126 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4312,7 +4312,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 223.52 118.11) (xy 248.92 118.11) (xy 248.92 144.78) (xy 223.52 144.78)
+				(xy 220.98 120.65) (xy 246.38 120.65) (xy 246.38 147.32) (xy 220.98 147.32)
 			)
 			(stroke
 				(width 0)
@@ -4392,7 +4392,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 228.6 133.35 0)
+		(at 226.06 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4401,7 +4401,7 @@
 		(fields_autoplaced yes)
 		(uuid "05871dcf-fdb9-4efa-8bd4-630074d87d93")
 		(property "Reference" "H3"
-			(at 231.14 132.0799 0)
+			(at 228.6 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4410,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 231.14 134.6199 0)
+			(at 228.6 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 133.35 0)
+			(at 226.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 133.35 0)
+			(at 226.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4437,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 228.6 133.35 0)
+			(at 226.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4456,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 228.6 138.43 0)
+		(at 226.06 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4465,7 +4465,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dd45c84-d6ae-445e-81fc-4fd1883ff6a0")
 		(property "Reference" "H4"
-			(at 231.14 137.1599 0)
+			(at 228.6 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4474,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 231.14 139.6999 0)
+			(at 228.6 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 138.43 0)
+			(at 226.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 138.43 0)
+			(at 226.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4501,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 228.6 138.43 0)
+			(at 226.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +4722,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 228.6 128.27 0)
+		(at 226.06 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4731,7 +4731,7 @@
 		(fields_autoplaced yes)
 		(uuid "3189b520-2a95-4cd5-b90d-7cd47175e9f8")
 		(property "Reference" "H2"
-			(at 231.14 126.9999 0)
+			(at 228.6 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4740,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 231.14 129.5399 0)
+			(at 228.6 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 128.27 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 128.27 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4767,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 228.6 128.27 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4786,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 228.6 123.19 0)
+		(at 226.06 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4795,7 +4795,7 @@
 		(fields_autoplaced yes)
 		(uuid "37756501-b1ca-4c1e-a250-42252d8fb7df")
 		(property "Reference" "H1"
-			(at 231.14 121.9199 0)
+			(at 228.6 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4804,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 231.14 124.4599 0)
+			(at 228.6 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 123.19 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 123.19 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4831,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 228.6 123.19 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
