@@ -86,9 +86,6 @@
       8,
       9
     ],
-<<<<<<< HEAD
-    "col_widths": [],
-=======
     "col_widths": [
       186,
       171,
@@ -101,7 +98,6 @@
       112,
       112
     ],
->>>>>>> 2layer
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,

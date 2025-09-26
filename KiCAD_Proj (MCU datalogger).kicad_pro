@@ -218,6 +218,10 @@
       },
       "via_dimensions": [
         {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
           "diameter": 0.4,
           "drill": 0.25
         }
