@@ -1304,7 +1304,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 166.37 106.68 0)
+		(at 166.37 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1326,23 +1326,23 @@
 	)
 	(hierarchical_label "RESET"
 		(shape passive)
-		(at 153.67 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7146cdcc-444f-4df7-a9bb-a4f9f21b595a")
-	)
-	(hierarchical_label "Vcc"
-		(shape passive)
-		(at 166.37 101.6 0)
+		(at 166.37 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "7146cdcc-444f-4df7-a9bb-a4f9f21b595a")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 153.67 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "7b010fed-8749-4de8-9c1d-80f4e81f25c8")
 	)
@@ -1359,7 +1359,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape passive)
-		(at 153.67 104.14 180)
+		(at 153.67 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 166.37 104.14 0)
+		(at 166.37 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1470,7 +1470,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 106.68 66.04) (xy 179.07 66.04) (xy 179.07 130.81) (xy 106.68 130.81)
+				(xy 106.68 66.04) (xy 179.07 66.04) (xy 178.435 129.54) (xy 106.045 129.54)
 			)
 			(stroke
 				(width 0)
@@ -1508,7 +1508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 158.75 104.14 0)
 			(effects
 				(font
@@ -1596,7 +1596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 119.38 78.74 0)
 			(effects
 				(font
@@ -1760,7 +1760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 119.38 111.76 0)
 			(effects
 				(font
