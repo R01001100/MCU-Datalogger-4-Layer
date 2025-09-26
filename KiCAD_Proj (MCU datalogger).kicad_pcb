@@ -2421,6 +2421,17 @@
 			(uuid "2a544961-6fcc-4709-81fd-1e8a23c617b0")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/24LC1025-I_SM/24LC1025-I_SM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -4216,6 +4227,17 @@
 			(uuid "681a0477-08d2-415c-98c5-f3db92dcd62e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/ATMEGA328P-AU/ATMEGA328P-AU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -6371,6 +6393,17 @@
 			(uuid "57683c91-5466-4867-ade9-6ba8effc0b75")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/24LC1025-I_SM/24LC1025-I_SM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -6931,6 +6964,17 @@
 			(uuid "bf0643b3-b3eb-467f-ba80-5e43d8851aea")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/DS1337S/DS1337S_.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Symbol:KiCad-Logo2_5mm_SilkScreen"
 		(layer "B.Cu")
