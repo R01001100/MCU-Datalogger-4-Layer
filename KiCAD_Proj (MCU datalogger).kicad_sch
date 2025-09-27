@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "4bd39814-648a-43e5-9d59-9775154104be")
 	(paper "A4")
+	(title_block
+		(title "MCU Datalogger")
+		(date "9/16/2025")
+		(company "LAUDE, RUSELLE RAE D.")
+		(comment 1 "BSECE - 1C")
+		(comment 2 "ELECTRONICS ENGINEERING DEPARTMENT")
+		(comment 3 "ELECTRONICS ENGINEERING")
+		(comment 4 "TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES")
+	)
 	(lib_symbols
 		(symbol "24LC1025-I_SM:24LC1025-I_SM"
 			(pin_names
@@ -3096,16 +3105,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 125.73) (xy 165.1 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385d3472-1f3c-4091-9a5d-52dd21e8e29e")
-	)
-	(wire
-		(pts
 			(xy 91.44 152.4) (xy 104.14 152.4)
 		)
 		(stroke
@@ -3226,6 +3225,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 123.19) (xy 172.72 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52de0ec8-2677-4854-9e83-4ac2354f2f66")
+	)
+	(wire
+		(pts
 			(xy 85.09 48.26) (xy 90.17 48.26)
 		)
 		(stroke
@@ -3256,6 +3265,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 125.73) (xy 165.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d06671-4070-4b76-88d0-23145982b8aa")
+	)
+	(wire
+		(pts
 			(xy 27.94 60.96) (xy 49.53 60.96)
 		)
 		(stroke
@@ -3283,16 +3302,6 @@
 			(type default)
 		)
 		(uuid "6e52f8ca-c007-403b-855f-941fa8729b3c")
-	)
-	(wire
-		(pts
-			(xy 165.1 125.73) (xy 165.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7120fad4-15db-4c6c-8145-4640c42025cd")
 	)
 	(wire
 		(pts
@@ -3333,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "7886f78c-8db8-493f-8715-b3292f20c0a5")
+	)
+	(wire
+		(pts
+			(xy 165.1 125.73) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fea0e7-b85d-485e-a442-95ea8d7cc825")
 	)
 	(wire
 		(pts
@@ -3673,16 +3692,6 @@
 			(type default)
 		)
 		(uuid "d30fb93d-c4ea-40f7-9c7a-5f7a80cabf88")
-	)
-	(wire
-		(pts
-			(xy 165.1 123.19) (xy 172.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eafe3cb1-a918-4a4f-bc83-eb81ed21ea61")
 	)
 	(wire
 		(pts
@@ -7422,7 +7431,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "332bdd2b-acd5-4556-89bc-1329fd5879e3")
+		(uuid "a07628f7-2f03-4090-9bd5-07423306f38e")
 		(property "Sheetname" "Connectors"
 			(at 172.72 119.9384 0)
 			(effects
@@ -7432,7 +7441,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "C:/Project Punk/KiCAD Proj/KiCAD_Proj (MCU datalogger)/Connectors.kicad_sch/Connectors.kicad_sch"
+		(property "Sheetfile" "C:/Project Punk/KiCAD Proj/KiCAD_Proj (MCU datalogger [4 layer])/Connectors.kicad_sch/Connectors.kicad_sch"
 			(at 172.72 152.9846 0)
 			(effects
 				(font
@@ -7441,99 +7450,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Vcc" passive
-			(at 172.72 123.19 180)
-			(uuid "b820367f-a0a4-4277-89f2-64da07fb26e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GND" passive
-			(at 172.72 125.73 180)
-			(uuid "fbca2cb2-a183-481e-97ff-33d08cab5821")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA" tri_state
-			(at 172.72 130.81 180)
-			(uuid "8bcdfeb2-f508-42f3-9d7c-a9807b57ac32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCK" passive
-			(at 172.72 133.35 180)
-			(uuid "7fab65f5-094a-4c20-81b5-06e65c905525")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TX" output
-			(at 172.72 138.43 180)
-			(uuid "1479ac66-38f8-4e4f-93c8-566b18702c58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX" input
-			(at 172.72 140.97 180)
-			(uuid "fe43a124-d1f0-40d5-aadf-a3e57b4dcaed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOSI" input
-			(at 172.72 144.78 180)
-			(uuid "5a61def7-506d-4561-8e2a-a1ff2a0603c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MISO" output
-			(at 172.72 147.32 180)
-			(uuid "493ce983-50a1-4799-93a0-3a77592cc1a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RESET" passive
-			(at 172.72 149.86 180)
-			(uuid "f45d8c78-6bb4-4e28-a5a0-31839a71343c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "D2" tri_state
 			(at 196.85 129.54 0)
-			(uuid "1a638007-1120-4cb0-b1e9-870eec652a67")
+			(uuid "fb5f6e5c-b691-49ab-939e-96c4e9e47bd0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7462,7 @@
 		)
 		(pin "D3" tri_state
 			(at 196.85 132.08 0)
-			(uuid "7d5c924b-0e52-42d6-8230-4562b1947ec6")
+			(uuid "11856a1e-aad6-49c1-bae8-b9834cb3784d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7472,7 @@
 		)
 		(pin "D4" tri_state
 			(at 196.85 134.62 0)
-			(uuid "edcd6be2-c33f-4e1f-aa47-b1a167c9b431")
+			(uuid "46fc850e-0aa9-4640-929c-67a0eaf79f7e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +7482,7 @@
 		)
 		(pin "D5" tri_state
 			(at 196.85 137.16 0)
-			(uuid "c69fced2-fa52-4185-80ae-12f12a6ff5bf")
+			(uuid "bd61fc5d-ab7c-408b-acdb-80ef5752a252")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +7492,7 @@
 		)
 		(pin "D6" tri_state
 			(at 196.85 139.7 0)
-			(uuid "239881c6-49ec-4ba1-a030-8fa389b9dbfd")
+			(uuid "3a9d9298-5c2b-4630-aa2c-ffdbab151d52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7502,7 @@
 		)
 		(pin "D7" tri_state
 			(at 196.85 142.24 0)
-			(uuid "7278931c-b477-4f4c-8ac2-a2f243fda5a7")
+			(uuid "077ed766-5c7f-47a0-81b9-ab019e8492e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7512,7 @@
 		)
 		(pin "D8" tri_state
 			(at 196.85 144.78 0)
-			(uuid "799f1657-8159-4521-8fec-55044968f183")
+			(uuid "762c077e-ad76-4a81-a075-fca874151738")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,10 +7520,100 @@
 				(justify right)
 			)
 		)
+		(pin "GND" passive
+			(at 172.72 125.73 180)
+			(uuid "472fce67-916c-43e8-8c7a-8742f3f2a2b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vcc" passive
+			(at 172.72 123.19 180)
+			(uuid "f8d0a743-5dc5-4f7b-9d2b-532287ef5a4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 172.72 147.32 180)
+			(uuid "89937404-13da-40d9-9b4c-5b63719a21f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 172.72 144.78 180)
+			(uuid "ca5d37f6-4c6d-4ace-8b21-960dd1e0201b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" passive
+			(at 172.72 149.86 180)
+			(uuid "dc856023-ea62-46d5-b7f5-1d5eb6ad5bc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 172.72 140.97 180)
+			(uuid "ae704d95-58d0-48a1-b4af-5a4a10074347")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" output
+			(at 172.72 138.43 180)
+			(uuid "7479be47-c662-4b92-a7b2-8313c8c1c8ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" tri_state
+			(at 172.72 130.81 180)
+			(uuid "3c66d20d-c82c-42c6-9856-86ccffa917aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" passive
+			(at 172.72 133.35 180)
+			(uuid "9adecbf1-adef-4e81-98dd-543472ad50ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "KiCAD_Proj (MCU datalogger)"
 				(path "/4bd39814-648a-43e5-9d59-9775154104be"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
