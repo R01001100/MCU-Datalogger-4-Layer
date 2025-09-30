@@ -1434,7 +1434,7 @@
 		)
 		(uuid "c3db18cb-c02e-47b7-9a6f-582eb931377b")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SCL"
 		(shape passive)
 		(at 124.46 83.82 0)
 		(effects
@@ -1470,11 +1470,12 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 106.68 66.04) (xy 179.07 66.04) (xy 178.435 129.54) (xy 106.045 129.54)
+				(xy 106.68 66.04) (xy 179.07 66.04) (xy 179.07 129.54) (xy 106.68 129.54)
 			)
 			(stroke
-				(width 0)
-				(type dash)
+				(width 0.254)
+				(type solid)
+				(color 0 0 139 1)
 			)
 			(fill
 				(type none)
